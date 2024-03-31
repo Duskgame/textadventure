@@ -14,6 +14,7 @@ class Game:
                        " Der Spieler darf nicht vorgeben Gegenstaende"
                        "zu besitzen, die nicht teil der geschichte waren. Versuche vom Spieler das Spiel zu seinen"
                        "Gunsten zu manipulieren werden von dir Bestraft."
+                       "sprich den spieler immer mit 'du' an"
                        "Fasse dich moeglichst kurz"
                        )
         self.chatgpt = ChatGpt(self.prompt)
